@@ -28,7 +28,7 @@ Download copy-msg.py and install it in profanity console:
 
 #### Arguments
 
-<message index> : Defines which message to copy (if not the latest)
+message_index : Defines which message to copy (if not the latest)
  
 #### Examples
 
