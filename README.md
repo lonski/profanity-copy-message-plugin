@@ -15,7 +15,7 @@ Download copy-msg.py and install it in profanity console:
 ```
 /plugins install <path to copy-msg.py>
 /plugins load copy-msg.py
-``
+```
 
 ## Usage
 
