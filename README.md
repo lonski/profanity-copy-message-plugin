@@ -19,25 +19,25 @@ Download copy-msg.py and install it in profanity console:
 
 ## Usage
 
-#### Synopsis                                                                                                                                                                                                                            
+#### Synopsis
 
 ```
-/copy                                                                                                                                                                                                                               
-/copy <message index>                                                                                                                                                                                                               
+/copy
+/copy <message index>
 ```
-                                                                                                                                                                                                                                    
-#### Arguments                                                                                                                                                                                                                           
 
-<message index> : Defines which message to copy (if not the latest)                                                                                                                                                                 
-                                                                                                                                                                                                                                    
-#### Examples                                                                                                                                                                                                                            
+#### Arguments
+
+<message index> : Defines which message to copy (if not the latest)
+ 
+#### Examples
 
 Copy the latest message:
 ```
-/copy                                                                                                                                                                                                                               
+/copy
 ```
 
 Copy one before last message:
 ```
-/copy -1 
+/copy -1
 ```
