@@ -52,7 +52,7 @@ def _cmd_copy(msg_index):
         prof.chat_show(jid,"Error: message with that index is not stored and cannot be copied to clipboard.")
         return
 
-    msg = msg_list[int(msg_index)]
+    msg = msg_list[abs(int(msg_index))]
     pyperclip.copy(msg)
     prof.chat_show(jid, "Copied message '" + msg + "'.")
 
